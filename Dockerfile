@@ -1,10 +1,6 @@
 FROM ubuntu:trusty
 
 
-#RUN  apt-get update -y 
-
-#RUN apt-get install -y curl libc6 libcurl3 zlib1g
-
 RUN apt-get -y install wget
 
 RUN mkdir /opt/vexiere 
